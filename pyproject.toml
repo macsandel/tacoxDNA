@@ -11,6 +11,17 @@ name = "tacoxDNA"
 readme = "README.md"
 
 [project.scripts]
+cadnano_oxDNA = "tacoxDNA.cadnano_oxDNA"
+CanDo_oxDNA = "tacoxDNA.CanDo_oxDNA"
+LAMMPS_oxDNA = "tacoxDNA.LAMMPS_oxDNA"
+oxDNA_LAMMPS = "tacoxDNA.oxDNA_LAMMPS"
+oxDNA_PDB = "tacoxDNA.oxDNA_PDB"
+PDB_oxDNA = "tacoxDNA.PDB_oxDNA"
+rpoly_oxDNA = "tacoxDNA.rpoly_oxDNA"
+scadnano_oxDNA = "tacoxDNA.scadnano_oxDNA"
+Tiamat_oxDNA =  "tacoxDNA.Tiamat_oxDNA"
+vHelix_oxDNA = "tacoxDNA.vHelix_oxDNA"
+XYZ_oxDNA =  "tacoxDNA.XYZ_oxDNA"
 
 [dependency-groups]
 # With uv, dev group dependencies are automatically excluded from wheel file dependency metadata
